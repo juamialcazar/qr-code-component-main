@@ -1,0 +1,79 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* font-family: 'Outfit', sans-serif;
+
+ # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/ 
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+    text-align: center;
+    padding: 0 5px 0 5px;
+}
+
+body p {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    padding: 0 5px 0 5px;
+}
+
+.wrapper {
+    margin: auto auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 15px;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 59px 15px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 1px 59px 15px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 1px 59px 15px rgba(0,0,0,0.1);
+}
+
+.wrapper img {
+    box-sizing: border-box;
+    border-radius: 10px;
+    max-width: 100%;
+}
